@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mushroom Identifier - YOLOv11 Project
 ## 🍄 AI-Powered Mushroom Detection & Classification
 
@@ -156,3 +157,6 @@ Dataset licențiat sub **CC BY 4.0**.
 **⭐ Dacă acest proiect v-a fost util, vă rugăm să îi dați un star pe GitHub!**
 
 **🤝 Contribuțiile sunt binevenite!** Vezi [CONTRIBUTING.md](CONTRIBUTING.md) pentru detalii.
+=======
+# Excalibur-AI-Camp---2024
+>>>>>>> 84a7de3a58eee27c3b13908b77593c9d75c94eda
