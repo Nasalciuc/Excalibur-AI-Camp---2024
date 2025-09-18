@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['chanterelle', 'death-cap', 'field-mushroom']
+
+roboflow:
+  workspace: workspace-zbvbx
+  project: mushroom-identifier-lyqa4
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/workspace-zbvbx/mushroom-identifier-lyqa4/dataset/2

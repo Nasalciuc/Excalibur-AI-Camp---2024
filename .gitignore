@@ -1,0 +1,48 @@
+# Ignoră fișierele și folderele generate în timpul antrenării
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+
+# Ignoră cache-ul Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignoră fișierele de mediu virtual
+venv/
+env/
+ENV/
+
+# Ignoră fișierele de sistem
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Ignoră fișierele IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignoră fișierele de backup
+*.bak
+*.backup
+*~
+
+# Nu ignora fișierele importante ale dataset-ului
+!data.yaml
+!train/
+!valid/
+!test/
+
+# Ignoră fișierele mari de model pre-antrenat descărcate
+yolo*.pt
+
+# Ignoră folderele de rezultate experimentale
+experiments/
+outputs/
+checkpoints/

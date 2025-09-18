@@ -1,0 +1,21 @@
+# Comenzi pentru instalarea dependințelor pe RTX 4050
+
+# 1. Instalare PyTorch cu suport CUDA pentru RTX 4050
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# 2. Instalare Ultralytics (YOLOv11)
+pip install ultralytics
+
+# 3. Dependințe suplimentare
+pip install opencv-python
+pip install matplotlib
+pip install pillow
+pip install pyyaml
+pip install pandas
+pip install seaborn
+
+# 4. Verificare instalare
+python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}'); print(f'GPU: {torch.cuda.get_device_name() if torch.cuda.is_available() else \"None\"}')"
+
+# 5. Test rapid Ultralytics
+python -c "from ultralytics import YOLO; print('✅ Ultralytics instalat cu succes!')"
